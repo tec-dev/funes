@@ -14,6 +14,7 @@ public class Complaint {
 		this.rank = rank;
 		this.description = description;
 		this.category = category;
+		category.addMember(this);
 		evidence = new ArrayList<Resource>();
 	}
 

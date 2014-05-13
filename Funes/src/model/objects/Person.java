@@ -97,6 +97,10 @@ public class Person {
 	public void removeReview(Review review) {
 		//TODO
 	}
+	
+	public void fileComplaint(Complaint complaint) {
+		//TODO
+	}
 
 	public ArrayList<Complaint> getComplaints() {
 		return complaints;
